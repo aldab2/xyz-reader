@@ -246,6 +246,7 @@ public class ArticleDetailFragment extends Fragment implements
                                         .setBackgroundColor(mMutedColor);
                                 ((TextView) mRootView.findViewById(R.id.article_body)).setTextColor(mMutedColor);
                                 mRootView.findViewById(R.id.draw_insets_frame_layout).setBackgroundColor(mMutedColor);
+                                mRootView.findViewById(R.id.ab_layout).setBackgroundColor(mMutedColor);
                                 updateStatusBar();
                             }
                         }
